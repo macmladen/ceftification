@@ -1,0 +1,1 @@
+Images for the theme, do not include any placeholder or sample images.

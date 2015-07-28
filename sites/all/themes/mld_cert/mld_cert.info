@@ -1,0 +1,45 @@
+; The name, description and screenshot used for this theme on the Appearance
+; page at admin/appearance.
+
+name        = Mladen Cert
+description = Mladen built theme to lear certification
+screenshot  = screenshot.png
+
+; This theme is compatible with Drupal 7 core. And it is a sub-theme of Zen.
+core        = 7.x
+;base theme  = {no base}
+
+; Then we add our own stylesheet.
+stylesheets[all][] = css/mld_cert.css
+
+; Optionally add some JavaScripts to your theme.
+;scripts[] = js/script.js
+
+; Defined regions
+regions[header]         = Header
+regions[navigation]     = Navigation bar
+regions[highlighted]    = Highlighted
+regions[help]           = Help
+regions[content]        = Content
+regions[sidebar_first]  = First sidebar
+regions[sidebar_second] = Second sidebar
+regions[footer]         = Footer
+regions[bottom]         = Page bottom
+
+; The page_top and page_bottom regions are required in order for
+; the html.tpl.php to work properly, so do not delete them.
+regions[page_top]       = Page top
+regions[page_bottom]    = Page bottom
+
+; Various page elements output by the theme can be toggled on and off.
+features[] = logo
+features[] = name
+features[] = slogan
+features[] = node_user_picture
+features[] = comment_user_picture
+features[] = favicon
+features[] = main_menu
+features[] = secondary_menu
+
+; Set the default values of settings on the theme-settings.php form.
+;settings[zen_breadcrumb]           = yes

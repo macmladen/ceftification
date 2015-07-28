@@ -1,0 +1,1 @@
+Place for various assets used to construct and build this theme.
