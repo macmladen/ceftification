@@ -18,6 +18,13 @@
 function dgd7_more_link($variables) {
   return '<div class="more">' . l(t('Much More'), $variables['url'], array('attributes' => array('title' => $variables['title']))) . '</div>';
 }
-function dgd7_preprocess_node(&$variables) {
-//  xdebug_break();
+
+/**
+ * Implements template_process_node().
+ */
+function dgd7_preprocess_page(&$variables) {
+  // Changes go here.
+  //  xdebug_break();
+  dpm($variables);
+  $variables['title'] .= 'MAIN Drupal page!';
 }
